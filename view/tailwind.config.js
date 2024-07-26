@@ -6,6 +6,7 @@ export default {
     extend: {
       fontFamily: {
         fira: ["Fira Sans", "sans-serif"],
+        apercu: ['Apercu', 'sans-serif']
       }
     },
   },
