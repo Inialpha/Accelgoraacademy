@@ -3,7 +3,11 @@ export default {
   content: ["./index.html",
               "./src/**/*.{html,js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        fira: ["Fira Sans", "sans-serif"],
+      }
+    },
   },
   plugins: [],
 }
