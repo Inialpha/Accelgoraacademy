@@ -1,10 +1,9 @@
 import React from 'react';
-import pythonImage from '../../assets/images/courses/python_programming.jpeg'
 
 const Course: React.FC = () => {
   const courses = [
     {'title': 'Python Programming',
-  	'image': pythonImage,
+  	'image': '',
 	'description': 'Enroll to learn and master the foundamentals of \
 	programming and the Python language with this interesting course where you \
 	will get access to endless resourses, mentorship and guidiance and belong to a \
@@ -14,7 +13,7 @@ const Course: React.FC = () => {
 	},
 
 	{'title': 'Web Developement',
-	'image': pythonImage,
+	'image': '',
     'description': 'Enroll to learn and master the foundamentals of \
     programming and the Python language with this interesting course where you \
 	will get access to endless resourses, metorship and guidiance and belong to a \
@@ -24,14 +23,14 @@ const Course: React.FC = () => {
     },
 
 	{'title': 'Web Developement',
-		'image': pythonImage,
+		'image': '',
 			'description': 'Enroll to learn and master the foundamentals of ',
                         'duration': '12 weeks',
 			'price': '$400'
 		},
 
 		{'title': 'Web Developement',
-                  'image': pythonImage,
+                  'image': '',
 			'description': 'Enroll to learn and master the foundamentals of ',
                         'duration': '12 weeks',
 			'price': '$200'
@@ -41,20 +40,21 @@ const Course: React.FC = () => {
 
 
   return (
-    <section className=" ">
-      <div className=" grid grid-cols-1 md:grid-cols-3 gap-6 ">
+    <section className="lg:p-24 p-12">
+      <h3 className='text-5xl text-center mb-2 font-bold'>Our Courses</h3>
+      <div className=" grid font-fira grid-cols-1 lg:grid-cols-3 gap-4">
 	    {courses.map((course, index) => (
-	      <div className=" bg-slate-100 border border-slate-200 rounded-lg">
-                <img src={course.image} className=" w-full rounded-t-lg h-60 "/>
-                <div className=" p-6 mt-6">
+	      <div className=" bg-slate-50 rounded-lg">
+                <img src={course.image} className=" w-full h-60 "/>
+                <div className=" p-3 mt-3">
 		    <h3 className=" text-lg font-bold mb-4 ">{course.title}</h3>
-			<p className=" line-clamp-4 ">{course.description}</p>
+			          <p className=" line-clamp-4">{course.description}</p>
                   <hr className="my-4 border-t border-gray-300" />
                   <div className= "flex justify-between">
                     <p>{course.price}</p>
                     <p>{course.duration}</p>
                   </div>
-                    <hr className="my-4 border-t border-gray-300" />
+                    <hr className="my-4 border-t " />
                     <button className=" bg-blue-500 text-white font-bold py-2 px-4 rounded-full justify-self-center ">Enroll</button>
                 </div>
               </div>
