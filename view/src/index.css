@@ -1,3 +1,4 @@
+
 /*
 ! tailwindcss v3.4.6 | MIT License | https://tailwindcss.com
 */
@@ -797,4 +798,16 @@ video {
   .md\:p-6 {
     padding: 1.5rem;
   }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Apercu';
+    font-style: bold;
+    font-weight: 400;
+    font-display: swap;
+    src: url(/src/assets/fonts/Apercu*.otf) format('opentype');
+
 }

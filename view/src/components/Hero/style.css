@@ -1,0 +1,13 @@
+main {
+    background-image: url('../../assets/accelgora.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        background-size: cover;
+        background-position: left;
+    }
+}
