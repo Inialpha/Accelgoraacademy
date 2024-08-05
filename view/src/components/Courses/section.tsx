@@ -1,10 +1,11 @@
 import React from 'react';
 import pythonImage from '../../assets/images/courses/python_programming.jpeg'
+import bg from '../../assets/images/courses/python_programming.jpeg'
 
 const Course: React.FC = () => {
   const courses = [
     {'title': 'Python Programming',
-  	'image': pythonImage,
+  	'image': bg,
 	'description': 'Enroll to learn and master the foundamentals of \
 	programming and the Python language with this interesting course where you \
 	will get access to endless resourses, mentorship and guidiance and belong to a \
@@ -14,7 +15,7 @@ const Course: React.FC = () => {
 	},
 
 	{'title': 'Web Developement',
-	'image': pythonImage,
+	'image': bg,
     'description': 'Enroll to learn and master the foundamentals of \
     programming and the Python language with this interesting course where you \
 	will get access to endless resourses, metorship and guidiance and belong to a \
@@ -24,14 +25,14 @@ const Course: React.FC = () => {
     },
 
 	{'title': 'Web Developement',
-		'image': pythonImage,
+		'image': bg,
 			'description': 'Enroll to learn and master the foundamentals of ',
                         'duration': '12 weeks',
 			'price': '$400'
 		},
 
 		{'title': 'Web Developement',
-                  'image': pythonImage,
+                  'image': bg,
 			'description': 'Enroll to learn and master the foundamentals of ',
                         'duration': '12 weeks',
 			'price': '$200'
