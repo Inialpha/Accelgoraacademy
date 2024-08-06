@@ -2,7 +2,7 @@ main {
     background-image: url('../../assets/accelgora.png');
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
 }
 
 @media screen and (max-width: 768px) {

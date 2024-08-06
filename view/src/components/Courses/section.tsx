@@ -43,6 +43,7 @@ const Course: React.FC = () => {
 
   return (
     <section className=" ">
+      <h1 className=" text-5xl font-bold text-center ">Our Courses</h1>
       <div className=" grid grid-cols-1 md:grid-cols-3 gap-6 ">
 	    {courses.map((course, index) => (
 	      <div className=" bg-slate-100 border border-slate-200 rounded-lg">

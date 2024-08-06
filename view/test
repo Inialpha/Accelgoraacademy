@@ -1,0 +1,61 @@
+import React from 'react';
+
+
+const Course = () => {
+  courses = [
+    {'title': 'Python Programming',
+  	'image': null,
+	'description': 'Enroll to learn and master the foundamentals of \
+	programming and the Python language with this interesting course where you \
+	will get access to endless resourses, mentorship and guidiance and belong to a \
+	dynamic comminity of programmers',
+	'prize': null
+	},
+
+	{'title': 'Web Developement',
+	'image': null,
+    'description': 'Enroll to learn and master the foundamentals of \
+    programming and the Python language with this interesting course where you \
+	will get access to endless resourses, metorship and guidiance and belong to a \
+	dynamic comminity of programmers',
+    'prize': null
+    },
+
+	{'title': 'Web Developement',
+		'image': null,
+			'description': 'Enroll to learn and master the foundamentals of ',
+			'prize': null
+		},
+
+		{'title': 'Web Developement',
+			'description': 'Enroll to learn and master the foundamentals of ',
+			'prize': null
+		}
+
+	]
+
+
+  return (
+    <section className=" ">
+      <div className=" grid grid-cols-1 md:grid-cols-3 ">
+	    {courses.map((course, index) => (
+	      <div className=" h-16">
+		    <h1 className="" >course.title</h1>
+			<p className="">course.description</p>
+
+        	</div>}
+
+        <div className=" h-16"> Course 2
+        </div>
+
+        <div className=" h-16 "> Course 3
+        </div>
+
+        <div className=" h-16 "> Course 4
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default Course;

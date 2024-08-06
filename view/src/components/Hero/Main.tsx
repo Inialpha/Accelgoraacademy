@@ -3,7 +3,7 @@ import './style.css'
 const Main = () => {
     return (
         <>
-            <main id='main' className="p-12 relative h-[80vh] font-apercu lg:p-24">
+            <main id='main' className="p-12 relative h-[80vh] font-apercu lg:p-24 ">
                 <div className='w-full lg:w-1/2'>
                     <h1 className='flex text-4xl lg:text-6xl space-y-3 flex-col text-blue-900 font-extrabold'>
                         <span>Expert </span>
@@ -19,6 +19,7 @@ const Main = () => {
             </main>
         </>
     )
+
 }
 
 export default Main;
