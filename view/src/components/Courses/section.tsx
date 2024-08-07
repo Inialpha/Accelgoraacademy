@@ -42,15 +42,15 @@ const Course: React.FC = () => {
 
 
   return (
-    <section className=" ">
-      <h1 className=" text-5xl font-bold text-center ">Our Courses</h1>
+    <section id="courses" className=" font-fira p-4 md:p-12 lg:px-24 my-20">
+      <h1 className=" text-3xl md:text-5xl font-bold text-center mb-10">Our Courses</h1>
       <div className=" grid grid-cols-1 md:grid-cols-3 gap-6 ">
 	    {courses.map((course, index) => (
 	      <div className=" bg-slate-100 border border-slate-200 rounded-lg">
                 <img src={course.image} className=" w-full rounded-t-lg h-60 "/>
                 <div className=" p-6 mt-6">
 		    <h3 className=" text-lg font-bold mb-4 ">{course.title}</h3>
-			<p className=" line-clamp-4 ">{course.description}</p>
+			<p className=" line-clamp-4 text-xs">{course.description}</p>
                   <hr className="my-4 border-t border-gray-300" />
                   <div className= "flex justify-between">
                     <p>{course.price}</p>

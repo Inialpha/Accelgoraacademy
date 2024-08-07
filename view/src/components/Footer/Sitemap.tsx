@@ -9,9 +9,9 @@ const Sitemap = () => {
                 <h1 className="text-lg font-bold">Quick links</h1>
                 <ul className="mt-4 space-y-2">
                     <li><a href="/">Home</a></li>
-                    <li><a href="/courses">Courses</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact us</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact us</a></li>
                 </ul>
             </div>
             <div>
